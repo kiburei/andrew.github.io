@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+
 
 html {
   overflow-x: hidden;
@@ -10,6 +12,7 @@ html, html a, body {
 body {
   position: relative;
   font-family: Hind, sans-serif;
+  background-color: #f2f2f2;
 }
 
 p {
@@ -297,9 +300,12 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-block .promo-block-title {
-  font-size: 70px;
+  font-size: 100px;
+  font-weight: 400;
   color: #fff;
   line-height: 1;
+  font-family: "Zilla Slab Highlight", cursive;;
+  text-align: right;
 }
 
 @media (max-width: 480px) {
@@ -311,6 +317,7 @@ fieldset[disabled] .btn-theme {
 .promo-block .promo-block-text {
   font-size: 25px;
   color: #fff;
+  font-family: "Amatic SC", cursive;
 }
 
 .promo-block .promo-block-divider {
