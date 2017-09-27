@@ -297,9 +297,16 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .promo-block {
   padding: 220px 0 130px;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../img/think.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: contrast(90%);
 }
 
 .promo-block .promo-block-title {
+  float: right;
   font-size: 100px;
   font-weight: 400;
   color: #fff;
