@@ -305,6 +305,17 @@ fieldset[disabled] .btn-theme {
   -webkit-filter: contrast(90%);
 }
 
+.about {
+  color: white;
+  font-weight: 400;
+  font-family: "Zilla Slab Highlight", cursive;;
+}
+
+.about-text p{
+  color: white;
+  font-family: "Amatic SC", cursive;
+}
+
 .promo-block .promo-block-title {
   float: right;
   font-size: 100px;
